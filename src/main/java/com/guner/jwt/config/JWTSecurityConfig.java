@@ -52,12 +52,12 @@ public class JWTSecurityConfig {
                 // jwks url ile kullanım
                 // yamlda hiç tanıma gerek yok. jwks url'inden bilgiyi alıyor
                 // https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html#oauth2resourceserver-jwt-decoder-dsl
-                /*
+
                 .oauth2ResourceServer(oauth2 -> oauth2
                         .jwt(jwt -> jwt
                                 .jwkSetUri("http://localhost:8000/oauth2/jwks")
                         ))
-                 */
+
 
                 // custom decoder kullanımı
                 /*

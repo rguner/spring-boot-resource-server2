@@ -4,3 +4,12 @@
       #resource-server:
         #jwt:
           #issuer-uri: http://localhost:8000
+
+
+#deneyemedim henüz
+#spring:
+  #security:
+    #oauth2:
+      #resourceserver:
+        #jwt:
+          #public-key-location: classpath:my-key.pub
